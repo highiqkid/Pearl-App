@@ -4,7 +4,7 @@
 <p>This is the main git repository for the Pearl App. Below is the development plan: </p>
 <p><b>Backend</b></p>
 <ol> 
-<li>Set up OCR using abbyy's 90 day trial. Turn the image into text. </li>
+<li>Set up OCR using abbyy's 90 day trial. Turn the image into text. [Quick start guide: http://ocrsdk.com/documentation/quick-start/iphone-ocr-sdk/]</li>
 <li>Take that text and run it through three API's. See below. </li>
   <li>Display that information in categories on the info page</li>
   <li> Use Parse perhaps. </li>
