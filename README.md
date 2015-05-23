@@ -24,4 +24,3 @@
 </ol>
 <p>Pearl team, feel free to push a commit to this file editing the goals if we decide to change them or I'm miss informed</p>
 <p>Remember this is just a plan and it is always in development and this document doesn't represent the final solution. If you find a better way to execute this, awesome! Push that to the repository. </p>
-<p>test</p>
