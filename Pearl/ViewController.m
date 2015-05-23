@@ -45,6 +45,7 @@
         [myAlertView show];
         
     }
+    [self justTestingSomeShitHere];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -88,5 +89,14 @@
     
     [picker dismissViewControllerAnimated:YES completion:NULL];
     
+}
+
+- (void) justTestingSomeShitHere {
+    NSString * string = @"h,er,e's dat, string";
+   // NSArray *myArray = [string componentsSeparatedByString:@","];
+  //  NSString * strippedNumbers = [[myArray objectAtIndex:4] stringByReplacingOccurrencesOfRegex:@"[^0-9]" withString:@"kjhlkj"];
+   // NSString *myString = [NSString stringWithFormat:@"%@ %@", [myArray objectAtIndex:3], strippedNumbers];
+    [string componentsSeparatedByString:@","];
+    NSLog(@"%@", string);
 }
 @end
