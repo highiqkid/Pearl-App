@@ -412,6 +412,7 @@
 				D98BE5FE1B0182D000340DE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D98BE5FF1B0182D000340DE1 /* Build configuration list for PBXNativeTarget "PearlTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +421,7 @@
 				D98BE6011B0182D000340DE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

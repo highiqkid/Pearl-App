@@ -13,6 +13,7 @@
 - (IBAction)takePhoto:(id)sender;
 - (IBAction)selectPhoto:(id)sender;
 @property (strong, nonatomic) IBOutlet UIButton *move;
+@property (strong, nonatomic) IBOutlet UITextView *summary;
 
 
 @end
