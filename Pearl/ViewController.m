@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSString * sFeedURL = [NSString stringWithFormat:@"http://www.google.com/ig/api?weather=,,,270000,960000"];
+    //RSS Feed URL goes between quotes
+    
+    NSString * sActualFeed = [NSString stringWithContentsOfURL:[NSURL URLWithString:sFeedURL] encoding:1 error:nil];
+    
+//    lblOne.text = sActualFeed;
+    NSLog(@"%@", sActualFeed);
     
     if (![UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
         
